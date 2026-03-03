@@ -3,15 +3,14 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: black; }
-        .full-screen-menu {
-            width: 100%;
-            height: 100vh;
-            object-fit: contain; /* This ensures the whole menu fits on any phone */
-        }
+        body { margin: 0; padding: 0; background-color: #000; }
+        .menu-container { width: 100%; display: flex; flex-direction: column; }
+        img { width: 100%; height: auto; display: block; }
     </style>
 </head>
 <body>
-    <img src="Brown White and Cream Simple Coffee Drink Menu .jpg" class="full-screen-menu" alt="Coffee Shop Menu">
+    <div class="menu-container">
+        <img src="Brown White and Cream Simple Coffee Drink Menu .jpg" alt="Solo Coffee Menu">
+    </div>
 </body>
 </html>
